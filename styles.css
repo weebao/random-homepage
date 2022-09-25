@@ -1,0 +1,108 @@
+nav ul li:hover {
+    color: red;
+    background-color: gray;
+    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+
+.background {
+    width: 100%;
+    /* whatever width you want */
+    display: inline-block;
+    position: relative;
+    background-size: cover;
+    background: url('https://i.pinimg.com/originals/d5/b9/63/d5b963a7603284b483ee8b251bc304b9.jpg') top center no-repeat;
+    background-color: #FFF;
+}
+
+.background:after {
+    float: left;
+    content: '';
+}
+
+.section {
+    margin: auto auto auto auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.headertext {
+    font-size: 3rem;
+    font-family: "Trebuchet MS";
+    font-weight: normal;
+    color: white;
+    letter-spacing: 0.25rem;
+    position: relative;
+    border-style: double;
+    border-width: thick;
+
+
+    padding: 0.5rem;
+
+    margin: 20% 20% 20% 20%;
+
+}
+
+.normaltext {
+    font-size: 2.5rem;
+    font-family: "Trebuchet MS";
+    font-weight: normal;
+    letter-spacing: 0rem;
+}
+
+
+.centered {
+    text-align: center;
+    grid-column: 3 / 11;
+}
+
+.pagecenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+    text-align: center;
+}
+
+.small
+{
+    font-size: 1rem;
+    font-weight: normal;
+    letter-spacing: 0.25rem;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 40rem;
+  height: 1rem;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  border: solid 0.1rem;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+  appearance: none;
+  width: 1rem;
+  height: 2rem;
+  background: #04AA6D;
+  cursor: pointer;
+
+  border: solid 0.1rem;
+}
+
+.rainbow {
+    background: linear-gradient(to right, red, orange, yellow, lime, green, turquoise, cyan, blue, violet, magenta, crimson, red);
+}
