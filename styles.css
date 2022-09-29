@@ -4,14 +4,12 @@ nav ul li:hover {
     transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
 }
 
-
-.background {
+body {
     width: 100%;
-    /* whatever width you want */
-    display: inline-block;
+    color: white;
     position: relative;
     background-size: cover;
-    background: url('https://i.pinimg.com/originals/d5/b9/63/d5b963a7603284b483ee8b251bc304b9.jpg') top center no-repeat;
+    background: url('https://i.pinimg.com/originals/d5/b9/63/d5b963a7603284b483ee8b251bc304b9.jpg') no-repeat;
     background-color: #FFF;
 }
 
