@@ -4,7 +4,7 @@ nav ul li:hover {
     transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
 }
 
-body {
+background {
     width: 100%;
     color: white;
     position: relative;
